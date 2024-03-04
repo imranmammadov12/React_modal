@@ -4,9 +4,9 @@ import './modal.css';
 
 const Modal = ({ onClose }) => {
   useEffect(() => {
-    console.log('Модальное окно создано');
+    console.log('Модальное окно создано!');
     return () => {
-      console.log('Модальное окно удалено');
+      console.log('Модальное окно удалено!');
     };
   }, []);
 
